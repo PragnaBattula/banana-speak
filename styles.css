@@ -1,5 +1,25 @@
 :root {
-    --primary: #F2C94C;
+    --primary-color: #F2C94C;
     --black: #333333;
     --width-break: 600px;
+}
+
+body{
+    margin:0px;
+}
+
+.container{
+    padding:0rem 1rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    padding:1.5rem;
+    display: block;
+}
+
+.navigation .nav-brand{
+    font-size: 2rem;
+    text-align: center;
+
 }
