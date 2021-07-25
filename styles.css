@@ -6,11 +6,9 @@
 
 body{
     margin:0px;
+    font-family: open-sans,cursive;;
 }
 
-.container{
-    padding:0rem 1rem;
-}
 
 .navigation{
     background-color: var(--primary-color);
@@ -22,4 +20,51 @@ body{
     font-size: 2rem;
     text-align: center;
 
+}
+
+main{
+    margin:auto;
+    padding: 1rem;
+    max-width: var(--width-break); 
+    box-sizing: border-box;
+}
+
+#txt-input{
+    box-sizing: border-box;
+    display: block;
+    width:100%;
+    min-height: 20vh;
+    margin:2rem;
+    font-size: large;
+    border: 1px solid black;
+}
+
+#btn-translate{
+    background-color: var(--primary-color);
+    border: none;
+    margin:2rem;
+    padding: 1rem 2rem;
+    font-family: open-sans,cursive;
+    font-size: large;
+   display: block;
+}
+
+#text{
+    font-size: large;
+    margin:2rem;
+    display:block;
+    
+}
+
+#output{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 10vh;
+    margin:2rem;
+    overflow: scroll;
+    font-size: large;
+    border: 1px solid black;
+     
+   
 }
