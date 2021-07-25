@@ -68,3 +68,18 @@ main{
      
    
 }
+
+.footer{
+    background-color: var(--primary-color);
+    padding:0.5rem;
+    padding-bottom: 2rem;
+    display:block;
+}
+
+.footer-txt{
+    text-align: center;
+    max-width: 600px;
+    margin:auto;
+    display: block;
+}
+
