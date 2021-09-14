@@ -55,6 +55,7 @@ main{
     font-size: large;
    display: block;
    cursor: pointer;
+  text-align: center;
    
 }
 
@@ -79,14 +80,14 @@ div{
 
 
 footer{
-    box-sizing: border-box;
-    position: fixed;
+    margin-top: 4.65rem;
+    position: relative;
     bottom: 0;
     width: 100%;
     padding: 0.5rem;
     background-color: var(--primary-color);
     text-align: center;
-    display: block;
+    box-sizing: border-box;
     
     
 }
